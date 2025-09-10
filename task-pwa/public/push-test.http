@@ -1,0 +1,10 @@
+# Use this after starting the push server
+# Replace SUBSCRIPTION_JSON with the body returned from client subscription
+
+POST http://localhost:4000/api/notify
+Content-Type: application/json
+
+{
+	"title": "Task Reminder",
+	"body": "This is a test notification"
+} 
